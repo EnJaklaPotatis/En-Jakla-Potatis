@@ -1,5 +1,5 @@
 const params = new URLSearchParams(window.location.search);
-const lang = params.get("lang") || "en";
+const lang = params.get("lang") || "En_Strings";
 
 fetch(`/String/${lang}.json`)
     .then(res => res.json())
