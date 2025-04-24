@@ -1,5 +1,6 @@
-input[type="image"] {
+.flag-image {
     width: 40px;
-    margin-right: 10px;
+    height: auto;
     cursor: pointer;
+    margin-right: 10px;
 }
