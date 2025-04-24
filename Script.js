@@ -1,5 +1,5 @@
 document.getElementById("en").onclick = English;
-document.getElementById("se").onclick = Svenska;
+document.getElementById("sv").onclick = Svenska;
 //f
 function Svenska(){
 console.log("SV");
