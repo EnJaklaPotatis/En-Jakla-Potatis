@@ -1,12 +1,10 @@
-button {
-    border: none;
+.flag-button {
     background: none;
-    padding: 0;
+    border: none;
     cursor: pointer;
+    margin-right: 10px;
 }
 
-button img {
-    display: block;
-    pointer-events: none;
-    user-select: none;
-}
+    .flag-button img {
+        width: 40px;
+    }

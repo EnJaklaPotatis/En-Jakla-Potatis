@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
-const lang = params.get("lang") || "En_Strings";
+const lang = params.get("lang") || "en";
 
-fetch(`/String/${lang}.json`)
+fetch(`/lang/${lang}.json`)
     .then(res => res.json())
     .then(data => {
         document.getElementById("Language").textContent = data.title;
