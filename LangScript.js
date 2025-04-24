@@ -9,7 +9,7 @@ function getCookie(name) {
     if (parts.length === 2) return parts.pop().split(';').shift();
 }
 
-const lang = params.get("lang") || "en";
+const lang = getCookie("lang") || "en";
 
 fetch(`/lang/${lang}.json`)
     .then(res => res.json())
