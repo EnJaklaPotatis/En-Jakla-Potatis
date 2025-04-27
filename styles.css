@@ -1,10 +1,23 @@
-.flag-image {
+.TopBar{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px;
+    border-bottom: 1px solid #edf2fa;
+}
+.Right {
+display: flex;
+align-items: flex-end;
+}
+.Left {
+display: flex;
+align-items: flex-start;
+}
+.flag-image { 
     width: 54px;
     height: 54px;
     cursor: pointer;
     margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     image-rendering: pixelated;
     opacity: 1;
     transition: opacity 0.2s ease;
@@ -12,10 +25,3 @@
     .flag-image:hover {
         opacity: 0.7;
     }
-
-.language-selector {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-    border-bottom: 1px solid #e1e3e1;
-}
