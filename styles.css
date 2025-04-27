@@ -31,3 +31,8 @@ align-items: flex-start;
     .flag-image:hover {
         opacity: 0.7;
     }
+.jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
