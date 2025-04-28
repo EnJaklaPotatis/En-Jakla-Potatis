@@ -1,5 +1,6 @@
 .Page {
     margin-top: 0px;
+    font-family: "MedodicaRegular"
 }
 .TopBar{
     display: flex;
@@ -35,10 +36,9 @@ align-items: flex-start;
     width: 54px;
     height: 54px;
 }
-.jersey-10-regular {
-    font-family: "Jersey 10", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+@font-face {
+    font-family: "MedodicaRegular", sans-serif;
+    src: url(Content/Fonts/MedodicaRegular.otf);
 }
 
 h1 {
