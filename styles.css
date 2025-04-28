@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "MedodicaRegular", sans-serif;
+    src: url(Content/Fonts/MedodicaRegular.otf);
+}
+
 .Page {
     margin-top: 0px;
     font-family: "MedodicaRegular"
@@ -35,10 +40,6 @@ align-items: flex-start;
 .Logo {
     width: 54px;
     height: 54px;
-}
-@font-face {
-    font-family: "MedodicaRegular", sans-serif;
-    src: url(Content/Fonts/MedodicaRegular.otf);
 }
 
 h1 {
