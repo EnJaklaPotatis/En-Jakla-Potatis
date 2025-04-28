@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "MedodicaRegular", sans-serif;
+    font-family: "MedodicaRegular";
     src: url(Content/Fonts/MedodicaRegular.otf);
 }
 
 .Page {
     margin-top: 0px;
-    font-family: "MedodicaRegular";
+    font-family: "MedodicaRegular", sans-serif;
 }
 .TopBar{
     display: flex;
