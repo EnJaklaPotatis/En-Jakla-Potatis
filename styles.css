@@ -7,6 +7,10 @@
 
 .Page {
     margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+
     font-family: "MedodicaRegular", sans-serif;
 }
 .TopBar {
@@ -46,12 +50,12 @@
 }
 
 .Profile {
-    width: 20vw;
+    width: 20%;
 }
 
 @media (max-width: 500px) {
     .Profile {
-        width: 100vw;
+        width: 100%;
     }
 }
 .ProfilePicture {
