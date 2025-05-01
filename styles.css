@@ -45,8 +45,9 @@
         opacity: 0.7;
     }
 .Logo {
-    width: 3.75em;
-    height: 3.75em;
+    width: 90px;
+    height: 90px;
+    aspect-ratio: 1/1;
 }
 
 .Profile {
