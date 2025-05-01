@@ -1,9 +1,12 @@
+
+
 @font-face {
     font-family: "MedodicaRegular";
     src: url(Content/Fonts/MedodicaRegular.otf);
 }
 
 .Page {
+    max-width: 100%;
     margin-top: 0px;
     font-family: "MedodicaRegular", sans-serif;
 }
