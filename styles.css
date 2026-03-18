@@ -58,12 +58,6 @@
     border-bottom: 1px solid #d2d3d5;
 }
 
-@media (max-width: 500px) {
-    .Profile {
-        width: calc(100% - 20px);
-        border-right: 0px;
-    }
-}
 .ProfilePicture {
     aspect-ratio: 1/1;
     width: 100%;
@@ -75,6 +69,32 @@ h1.HeaderScaler {
     overflow: hidden;
 }
 
+.AccountList {
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #d2d3d5;
+    border-bottom: 1px solid #d2d3d5;
+}
+.Account {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #d2d3d5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 p {
     font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 500px) {
+    .Profile,
+    .AccountList {
+        width: calc(100% - 20px);
+        border-right: 0px;
+    }
 }
