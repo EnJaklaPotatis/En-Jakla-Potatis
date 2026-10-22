@@ -14,5 +14,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     refreshBadge();
-    setInterval(refreshBadge, 60000);
+    setInterval(refreshBadge, 20000);
 });
