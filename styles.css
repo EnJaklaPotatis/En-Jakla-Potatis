@@ -85,7 +85,8 @@ h1.HeaderScaler {
     align-items: center;
 }
 .Spotifystats {
-    align-items: end;
+    position: absolute;
+    right: 0;
 }
 
 p {
