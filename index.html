@@ -16,42 +16,50 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
-    <body class="Page">
-        <div class="TopBar">
-            <div class="Left">
-                <a href="https://enjaklapotatis.com">
-                    <img class="Logo" alt="En Jäkla Potatis" src="Content/Bilder/En Jäkla Potatis.svg">
-                </a>
-            </div>
-            <div class="Right">
-
-                <input type="image" src="Content/Bilder/En flag.png" alt="English" onclick="setLanguage('en')" class="flag-image">
-                <input type="image" src="Content/Bilder/Sv flag.png" alt="Svenska" onclick="setLanguage('sv')" class="flag-image" style="margin-right: 0px">
-
-
-                <script src="scripts/LangScript.js"></script>
-            </div>
+<body class="Page">
+    <div class="TopBar">
+        <div class="Left">
+            <a href="https://enjaklapotatis.com">
+                <img class="Logo" alt="En Jäkla Potatis" src="Content/Bilder/En Jäkla Potatis.svg">
+            </a>
         </div>
-        <div class="Profile">
-            <h1 class="HeaderScaler">En Jäkla Potatis</h1>
-            <img src="Content/Bilder/potatis-maskeraddrakt-2.jpg" class="ProfilePicture">
+        <div class="Right">
 
-            <script src="scripts/HeaderScript.js"></script>
+            <input type="image" src="Content/Bilder/En flag.png" alt="English" onclick="setLanguage('en')" class="flag-image">
+            <input type="image" src="Content/Bilder/Sv flag.png" alt="Svenska" onclick="setLanguage('sv')" class="flag-image" style="margin-right: 0px">
+
+
+            <script src="scripts/LangScript.js"></script>
         </div>
-        <div class="AccountList">
-            <div class="Account"> <!-- Discord -->
-                <img src="Content/Bilder/discord-logo-discord-logo-transparent-discord-icon-transparent-free-free-png.webp" style="width: 27px; height: 27px;">
-                <inline class="AccountName" style="align-self: center;">enjaklapotatis</inline>
-                <img src="Content/Bilder/Copy Symbol.svg" style="align-self: end;">
-            </div>
-            <div class="Account"> <!-- Steam -->
-                <img src="Content/Bilder/Open Symbol.svg">
-            </div>
+    </div>
+    <div class="Profile">
+        <h1 class="HeaderScaler">En Jäkla Potatis</h1>
+        <img src="Content/Bilder/potatis-maskeraddrakt-2.jpg" class="ProfilePicture">
+
+        <script src="scripts/HeaderScript.js"></script>
+    </div>
+    <div class="AccountList">
+        <div class="Account">
+            <!-- Discord -->
+            <img src="Content/Bilder/discord-logo-discord-logo-transparent-discord-icon-transparent-free-free-png.webp" style="width: 27px; height: 27px;">
+            <inline class="AccountName" style="align-self: center;">enjaklapotatis</inline>
+            <img src="Content/Bilder/Copy Symbol.svg" style="align-self: end;">
         </div>
-        <p id="Language"></p>
-        <div class="Spotifystats">
-            <a href="https://spotifystats.com/badge/ec453cddd94cdba470bdb8b71dbe9d609040a69b/open"><img src="https://spotifystats.com/badge/ec453cddd94cdba470bdb8b71dbe9d609040a69b.svg" alt="Now playing on Spotify" width="480" height="104"></a><br><small><a href="https://spotifystats.com/?ref=badge"></a></small>
+        <div class="Account">
+            <!-- Steam -->
+            <img src="Content/Bilder/Open Symbol.svg">
         </div>
-    </body>
+    </div>
+    <p id="Language"></p>
+
+        <script src="scripts/ImageRefresh.js"></script>
+    <div class="Spotifystats">
+        <a href="https://spotifystats.com/badge/ec453cddd94cdba470bdb8b71dbe9d609040a69b/open">
+            <img id="spotifyBadge" src="https://spotifystats.com/badge/ec453cddd94cdba470bdb8b71dbe9d609040a69b.svg" alt="Now playing on Spotify" width="480" height="104">
+        </a>
+        <br>
+        <small><a href="https://spotifystats.com/?ref=badge"></a></small>
+    </div>
+</body>
 
 </html>
